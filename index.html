@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TO DO List</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section>        
+        <section class="main">
+            <section class="bg-image"></section>
+        </section>
+        <section class="btn-head">
+            <button class="btn">Add todo</button>
+        </section>
+        <section class="head-todo">
+            <span class="head">TODO</span>
+        </section>
+        <section class="block">
+            <section class="block1">
+                <h1>Complete HTML Learning <span class="priority-blue">!!</span></h1>
+                <p>Learn all HTML senamatic tags, learn new article tag.
+                    <span class="icon">
+                        <i class="fa fa-trash-o" aria-hidden="true"></i>
+                    </span>
+                </p>
+                <div id="line1"></div>
+                
+            </section>
+            <section class="block2">
+                <h1>Learn MAP() Method <span class="priority-red">!!!</span></h1>
+                <p>Learn how to implement map method in javascript.
+                    <span class="icon">
+                        <i class="fa fa-trash-o" aria-hidden="true"></i>
+                    </span>
+                </p>
+                <div id="line2"></div>
+            </section>
+            <section class="block3">
+                <h1>Take Notes <span class="priority-blue">!!</span></h1>
+                <p>Take notes regarding css fundamentals.
+                    <span class="icon">
+                        <i class="fa fa-trash-o" aria-hidden="true"></i>
+                    </span>
+                </p>
+                <div id="line3"></div>
+            </section>
+            <section class="block4">
+                <h1>Water Plants <span class="priority-green">!</span></h1>
+                <p>Water all plants on Garden.
+                    <span class="icon">
+                        <i class="fa fa-trash-o" aria-hidden="true"></i>
+                    </span>
+                </p>
+                <div id="line4"></div>
+            </section>
+        </section>
+    </section>
+
+    <div id="popbag">
+        <div id="popup">
+            Todo name <br><br>
+            <input type="text" id="todoname" size="30">
+        </div>
+        <div>
+         Discription <br><br>
+         <input type="text" id="pop2" size="30">
+        </div>
+        <div>
+            Priority <br><br>
+            <input type="text" id="pop3" size="30">
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
